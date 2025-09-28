@@ -1,21 +1,50 @@
 {
 	"/": [
-		"src/routes/+page.js"
+		"src/routes/+page.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
 	],
 	"/acs-package": [
-		"src/routes/acs-package/+page.js"
+		"src/routes/acs-package/+page.js",
+		"src/routes/+layout.js"
 	],
-	"/applications": [],
-	"/chiral-technologies": [],
-	"/chromatogram-stacking-program": [],
-	"/contact-us": [],
-	"/downloads": [],
-	"/hplc-products": [],
-	"/mccp-program": [],
-	"/mccps-system": [],
-	"/mcs-program": [],
-	"/our-products": [],
-	"/sequence-builder": [],
-	"/sielc-technologies": [],
-	"/textbook-Information-extraction": []
+	"/applications": [
+		"src/routes/+layout.js"
+	],
+	"/chiral-technologies": [
+		"src/routes/+layout.js"
+	],
+	"/chromatogram-stacking-program": [
+		"src/routes/+layout.js"
+	],
+	"/contact-us": [
+		"src/routes/+layout.js"
+	],
+	"/downloads": [
+		"src/routes/+layout.js"
+	],
+	"/hplc-products": [
+		"src/routes/+layout.js"
+	],
+	"/mccp-program": [
+		"src/routes/+layout.js"
+	],
+	"/mccps-system": [
+		"src/routes/+layout.js"
+	],
+	"/mcs-program": [
+		"src/routes/+layout.js"
+	],
+	"/our-products": [
+		"src/routes/+layout.js"
+	],
+	"/sequence-builder": [
+		"src/routes/+layout.js"
+	],
+	"/sielc-technologies": [
+		"src/routes/+layout.js"
+	],
+	"/textbook-Information-extraction": [
+		"src/routes/+layout.js"
+	]
 }
