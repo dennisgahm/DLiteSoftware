@@ -1,7 +1,0 @@
-import { c as create_ssr_component } from "../../../chunks/ssr.js";
-const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="px-4 md:px-12 lg:px-24 my-6 w-full md:w-5/6 lg:w-4/6 self-center" data-svelte-h="svelte-nsk8na"><h1 class="font-bold text-2xl md:text-3xl lg:text-4xl text-secondary my-6">Applications</h1>  <div class="flex flex-col md:flex-row w-full justify-between my-6 gap-4"> <div class="bg-secondary/75 p-6 w-full md:w-2/5 drop-shadow-lg"><h2 class="text-xl md:text-2xl font-semibold text-center mb-6">MCCP Program</h2> <ul class="list-disc list-inside text-lg md:text-xl text-center"><li class="list-item">Static Cleaning Application</li> <li class="list-item">Gradient Cleaning Application</li></ul></div>  <div class="bg-secondary/75 p-6 w-full md:w-2/5 drop-shadow-lg"><h2 class="text-xl md:text-2xl font-semibold text-center mb-6">MCS Program</h2> <ul class="list-disc list-inside text-lg md:text-xl text-center"><li class="list-item">Single Injection Application</li> <li class="list-item">Double Injection Application</li></ul></div></div>  <div class="flex w-full justify-center my-6"><div class="bg-secondary/75 p-6 w-full md:w-2/5 drop-shadow-lg"><h2 class="text-xl md:text-2xl font-semibold text-center mb-6">MCCPS System</h2> <ul class="list-disc list-inside text-lg md:text-xl text-center"><li class="list-item">Dual System Application</li> <li class="list-item">Two Orthogonal Columns In-Series</li></ul></div></div></div>`;
-});
-export {
-  Page as default
-};

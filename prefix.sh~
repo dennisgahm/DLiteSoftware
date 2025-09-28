@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Directory containing your HTML files
+DIR="/path/to/your/html/files"
+
+# Backup original files (optional)
+mkdir -p "$DIR/backup"
+cp "$DIR"/*.html "$DIR/backup/"
+
+# Process each HTML file
+for file in "$DIR"/*.html; do
+    # Use sed to prepend DLiteSoftware/ to relative src and href
+    sed -i.bak -E 's/(src|href)=["'"'"']([^"'"'"']+)/\1="DLiteSoftware\/\2/g' "$file"
+    # Remove temporary .bak created by sed
+    rm "${file}.bak"
+done
+
+echo "All HTML files updated in $DIR"
