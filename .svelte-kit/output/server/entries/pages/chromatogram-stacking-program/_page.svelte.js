@@ -1,0 +1,100 @@
+import { c as create_ssr_component, a as add_attribute } from "../../../chunks/ssr.js";
+const img1 = "/_app/immutable/assets/1.DblnMY-b.webp";
+const img2 = "/_app/immutable/assets/2.DJrhSf4Y.webp";
+const img3 = "/_app/immutable/assets/3.D73GoucI.webp";
+const img4 = "/_app/immutable/assets/4.lIsr8dTY.webp";
+const img5 = "/_app/immutable/assets/5.C66Hb8U8.webp";
+const img6 = "data:image/webp;base64,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";
+const img7 = "/_app/immutable/assets/7.CCKO4wTH.webp";
+const img8 = "/_app/immutable/assets/8.CZAhiehu.webp";
+const img9 = "/_app/immutable/assets/9.7GLLx_-y.webp";
+const img10 = "/_app/immutable/assets/10.B2V_W8T1.webp";
+const img11 = "/_app/immutable/assets/11.Dwsw_bI1.webp";
+const img12 = "/_app/immutable/assets/12.DCyMqQrT.webp";
+const img13 = "/_app/immutable/assets/13.BnEdQphz.webp";
+const img14 = "/_app/immutable/assets/14.D0Hkrnfd.webp";
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<div class="max-w-6xl w-full px-4 sm:px-6 md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto" data-svelte-h="svelte-ne57ph"><h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-secondary my-4 sm:my-6">Chromatogram Stacking Program</h1> <div class="shadow-lg bg-secondary/50 p-4 sm:p-6 md:p-8 lg:p-10 mb-6"><div class="relative"><img class="pb-20"${add_attribute("src", img1, 0)} alt=""> <img class="absolute top-1/3 left-1/2"${add_attribute("src", img2, 0)} alt=""></div> <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-4">Description</p> <p class="my-4 text-sm sm:text-base md:text-lg">The Chromatogram Stacking Program is designed to provide an easy way to
+      quickly view, compare, and share chromatograms in the method development
+      process.  Though great as a standalone product, the Chromatogram
+      Stacking Program gives an even greater boost to productivity when used
+      alongside the <span><a class="underline" href="/mccps-system">MCCPS System</a></span>.  For a full list of features and detailed explanations of
+      functionality, please download the Chromatogram Stacking Program User&#39;s
+      Manual from the
+      <span><a class="underline" href="/downloads">Downloads Page</a></span>.</p> <p class="my-4 text-sm sm:text-base md:text-lg">The following will briefly walk you through how to use the Chromatogram
+      Stacking Program to accelerate your method development process:</p> <ol class="list-decimal list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Loading Chromatograms</a></li> <li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Managing Chromatograms</a></li> <li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Printing Chromatograms</a></li></ol> <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-4">Loading Chromatograms</p> <div class="flex flex-wrap justify-between mb-3"><div class="w-full md:w-3/5 mb-3 md:mb-0"><p class="my-4 text-sm sm:text-base md:text-lg">In this example, we will assume the user has completed a screening
+          process involving 20 Chiral Columns and that the user now wishes to
+          stack these chromatograms to compare them and determine the best
+          separation.</p> <p class="my-4 text-sm sm:text-base md:text-lg">When opening the Chromatogram Stacking Program, the Display Window
+          will be empty as shown below. To populate the Display Window with the
+          chromatograms from the screening run, we must browse for the folder
+          containing the injection data for that screening run. In the CS
+          Program, click Sequence&gt;&gt;Browse to open the Browse For Folder window
+          (seen at the right) to select the subdirectory with injection
+          information.</p> <img class="mx-auto"${add_attribute("src", img3, 0)} alt=""></div> <div class="w-full md:w-2/5"><img class="h-full"${add_attribute("src", img4, 0)} alt=""></div></div> <p class="my-4 text-sm sm:text-base md:text-lg">After the correct folder is selected, the Chromatogram Stacking Program
+      will order the injection folders alphanumerically, and display the
+      chromatograms in that order. After loading the chromatograms, resizing the
+      Display Window is recommended, as you are able to view up to three
+      chromatograms per row (if your screen resolution allows for it); the
+      chromatograms will then order from left to right. In the image below, 20
+      chromatograms have been loaded, and the Display Window has been resized to
+      allow for two chromatograms per row (click the image to enlarge).</p> <div class="my-"><img class="mx-auto"${add_attribute("src", img5, 0)} alt=""></div> <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-4">Managing Chromatograms</p> <p class="my-4 text-sm sm:text-base md:text-lg">To further aid in the chromatogram comparison process, the Chromatogram
+      Stacking Program gives the user options to better manage the chromatograms
+      in the Display Window.</p> <ul class="list-disc list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Hiding Chromatograms</a></li> <li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Removing Chromatograms</a></li> <li class="ml-6"><a class="underline" href="/chromatogram-stacking-program">Expanding Chromatograms</a></li></ul> <p class="my-4 text-sm sm:text-base md:text-lg">To better explain these features, we will focus on one Chromatogram
+      Window, as displayed below. Notice, to the left of the chromatogram&#39;s file
+      path, are two boxes. For extra clarity, the boxes are zoomed in on the
+      picture to the right. We shall refer to these as the CheckBox and the
+      SolidBox from now on, and these will be used in hiding and removing
+      chromatograms as described in further detail below.</p> <div class="flex flex-wrap justify-evenly my-4"><img${add_attribute("src", img6, 0)} alt=""> <img${add_attribute("src", img7, 0)} alt=""></div> <p class="my-4 text-sm sm:text-base md:text-lg font-semibold underline">Hiding Chromatograms</p> <p class="my-4 text-sm sm:text-base md:text-lg">In the process of comparing chromatograms, it may be beneficial to hide
+      the chromatograms that have failed to meet certain standards. By clicking
+      the CheckBox in that particular chromatogram&#39;s window, you will hide the
+      chromatogram. The chromatogram&#39;s order will still be preserved; to reopen
+      the chromatogram for reviewing, simply recheck the CheckBox of the
+      chromatogram you wish to review. The figure below displays how the CS
+      Program manages hidden chromatograms.</p> <div class="mb-3"><img class="mx-auto"${add_attribute("src", img8, 0)} alt=""></div> <p class="my-4 text-sm sm:text-base md:text-lg font-semibold underline">Removing Chromatograms</p> <p class="my-4 text-sm sm:text-base md:text-lg">In the process of comparing chromatograms, it may be beneficial to
+      entirely remove the chromatograms that have failed to meet certain
+      standards. By clicking the SolidBox in that particular chromatogram&#39;s
+      window, you will remove the chromatogram from the Display Window. In this
+      case, the chromatogram&#39;s order will not be preserved. To reopen the
+      chromatogram for reviewing, you must reload the files from the
+      subdirectory by clicking Settings&gt;&gt;Reload. The figure below shows how the
+      CS Program manages removed chromatograms (note: only 5 of the original 20
+      chromatograms are displayed).</p> <div class="mb-3"><img class="mx-auto"${add_attribute("src", img9, 0)} alt=""></div> <p class="my-4 text-sm sm:text-base md:text-lg font-semibold underline">Expanding Chromatograms</p> <p class="my-4 text-sm sm:text-base md:text-lg">In the process of comparing chromatograms, it may be beneficial to zoom in
+      on the chromatograms that have met certain standards. By double-clicking
+      the chromatogram, you will open a Pop-Out Window with a full resolution
+      image of that chromatogram. This Pop-Out Window can be stretched to
+      enlarge the image further if desired.</p> <div class="mb-3"><img class="mx-auto"${add_attribute("src", img10, 0)} alt=""></div> <p class="text-2xl"><strong>Printing Chromatograms</strong></p> <p class="my-4 text-sm sm:text-base md:text-lg">To aid in the chromatogram sharing process, the Chromatogram Stacking
+      Program gives the user options to print the chromatograms in the Display
+      Window. Some users may wish to skip the paper printout and make a digital
+      copy from the start; the Chromatogram Stacking Program also makes digital
+      copies via printing to Microsoft OneNote or Microsoft XPS Document Writer.
+      The following will detail various print options available and explain how
+      to print from the Display Window and the Pop-Out Window.</p> <p class="my-4 text-sm sm:text-base md:text-lg font-semibold underline">Printing from the Display Window</p> <p class="my-4 text-sm sm:text-base md:text-lg">With the Display Window populated with chromatograms, you will need to
+      select which chromatograms you want to print. Selecting Print from the
+      menu will instruct the CS Program to print every chromatogram present in
+      the Display Window (even those that are hidden via CheckBox). To print
+      only the chromatograms you want, remove all other unwanted chromatograms
+      from the Display Window by clicking each respective SolidBox.</p> <p class="my-4 text-sm sm:text-base md:text-lg">After chromatograms have been selected, you will need to determine how you
+      wish the chromatograms to be distributed on your paper and where you want
+      them to be printed.</p> <p class="my-4 text-sm sm:text-base md:text-lg">The CS Program has two settings for chromatogram distribution under the
+      Print menu:</p> <ol class="list-disc list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6">&quot;1 per page&quot; -- prints 1 chromatogram per page (larger image, greater
+        detail)</li> <li class="ml-6">&quot;10 per page&quot; -- prints 10 chromatograms per page (smaller images,
+        straightforward juxtaposition)</li></ol> <p class="my-4 text-sm sm:text-base md:text-lg">To select where you wish the chromatograms to be printed, select Print
+      Chromatograms from the Print menu to open the Print Window. In this window
+      there will be an area where you define the printer; the following are a
+      few possibilities:</p> <ul class="list-disc list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6">Your Installed Physical Printer -- prints out a hardcopy</li> <li class="ml-6">Microsoft OneNote -- creates a page in your desired notebook containing
+        all chromatogram pages</li> <li class="ml-6">Microsoft XPS Document Writer -- creates an XPS file (Microsoft&#39;s .pdf)
+        of all chromatogram pages</li></ul> <div class="flex flex-wrap justify-evenly my-4 gap-6"><img${add_attribute("src", img14, 0)} alt="Printout: 1 per page"> <img${add_attribute("src", img11, 0)} alt="Printout: 10 per page"></div> <p class="my-4 text-sm sm:text-base md:text-lg font-semibold underline">Printing from the Display Window</p> <p class="my-4 text-sm sm:text-base md:text-lg">After you have expanded a chromatogram into a Pop-Out Window, you will
+      need to determine how you wish the chromatograms to be distributed on your
+      paper and where you want them to be printed.</p> <p class="my-4 text-sm sm:text-base md:text-lg">The CS Program has two settings for printing the chromatogram currently
+      expanded in the Pop-Out Window:</p> <ol class="list-delist-disc list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6">&quot;Original Aspect Ratio&quot; -- maximizes chromatogram for greatest detail
+        while maintaining height-to-width ratio</li> <li class="ml-6">&quot;Stretch to Fill Page&quot; -- maximizes chromatogram to fill the entire page</li></ol> <p class="my-4 text-sm sm:text-base md:text-lg">To select where you wish the chromatograms to be printed, select Print
+      from the File menu to open the Print Window. In this window there will be
+      an area where you define the printer; the following are a few
+      possibilities:</p> <ul class="list-disc list-inside space-y-2 text-sm sm:text-base md:text-lg"><li class="ml-6">Your Installed Physical Printer -- prints out a hardcopy</li> <li class="ml-6">Microsoft OneNote -- creates a page in your desired notebook containing
+        all chromatogram pages</li> <li class="ml-6">Microsoft XPS Document Writer -- creates an XPS file (Microsoft&#39;s .pdf)
+        of all chromatogram pages</li></ul> <div class="flex flex-wrap justify-evenly mb-3"><img${add_attribute("src", img12, 0)} alt="Printout: Original Aspect Ratio"> <img${add_attribute("src", img13, 0)} alt="Printout: Stretch to Fill Page"></div></div></div>`;
+});
+export {
+  Page as default
+};
