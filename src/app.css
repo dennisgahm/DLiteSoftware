@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.no-rounded {
+  border-radius: 0px !important;
+}
+
+.shadow {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.shadow:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 12px 48px !important;
+}
+
