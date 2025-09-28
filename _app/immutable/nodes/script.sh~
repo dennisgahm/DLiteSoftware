@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Directory containing your JS files
+DIR="./app/immutable/chunks"
+
+# Check if directory exists
+if [ ! -d "$DIR" ]; then
+    echo "Directory $DIR does not exist"
+    exit 1
+fi
+
+# Loop through all .js files and generate <link> lines
+for file in "$DIR"/*.js; do
+    [ -e "$file" ] || continue  # skip if no files
+    filename=$(basename "$file")
+    echo "<link rel=\"modulepreload\" href=\"DLiteSoftware/./_app/immutable/chunks/$filename\">"
+done
