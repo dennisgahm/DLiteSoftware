@@ -1,8 +1,8 @@
 import { c as create_ssr_component, a as add_attribute } from "../../../chunks/ssr.js";
-const mccps = "/_app/immutable/assets/mccps-systems.BZe_KEd6.png";
-const ConventionalMethodDevelopment = "/_app/immutable/assets/conventionMethodDevelopment.D9XJ81Ye.webp";
-const MCCPSSystemMethodDevelopment = "/_app/immutable/assets/mccpsSystemBasedDevelopment.DzZ95t4N.webp";
-const columnSelectorUnit = "/_app/immutable/assets/columnSelectorUnit.BPqrkv5Y.webp";
+const mccps = "/DLiteSoftware/_app/immutable/assets/mccps-systems.BZe_KEd6.png";
+const ConventionalMethodDevelopment = "/DLiteSoftware/_app/immutable/assets/conventionMethodDevelopment.D9XJ81Ye.webp";
+const MCCPSSystemMethodDevelopment = "/DLiteSoftware/_app/immutable/assets/mccpsSystemBasedDevelopment.DzZ95t4N.webp";
+const columnSelectorUnit = "/DLiteSoftware/_app/immutable/assets/columnSelectorUnit.BPqrkv5Y.webp";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="max-w-6xl w-full px-4 sm:px-6 md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto" data-svelte-h="svelte-10dlaxw"><h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-secondary my-4 sm:my-6">MCCPS-System <span class="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-secondary mt-2">(Multiple Column Cleaning &amp; Pre-Conditioning and Screening)</span></h1> <div class="shadow-lg bg-secondary/50 p-4 sm:p-6 md:p-8 lg:p-10 mb-6"><img${add_attribute("src", mccps, 0)} alt="mccps system" class="w-full mb-6"> <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-4">What is the MCCPS System?</p> <p class="my-4 text-sm sm:text-base md:text-lg"><strong>The MCCPS System</strong> is a bundle of products designed to automate
       a large part of the method development process in order to free your hands

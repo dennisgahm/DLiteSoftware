@@ -147,11 +147,11 @@ const mcpProgramCards = [
     ]
   }
 ];
-const img1 = "/_app/immutable/assets/1.C37UbnTg.webp";
-const img2 = "/_app/immutable/assets/2.Cxl87oMg.webp";
-const img3 = "/_app/immutable/assets/3.BZSuGD6V.webp";
-const img4 = "/_app/immutable/assets/4.D3dct8zZ.webp";
-const img5 = "/_app/immutable/assets/5.BLWcmbUd.webp";
+const img1 = "/DLiteSoftware/_app/immutable/assets/1.C37UbnTg.webp";
+const img2 = "/DLiteSoftware/_app/immutable/assets/2.Cxl87oMg.webp";
+const img3 = "/DLiteSoftware/_app/immutable/assets/3.BZSuGD6V.webp";
+const img4 = "/DLiteSoftware/_app/immutable/assets/4.D3dct8zZ.webp";
+const img5 = "/DLiteSoftware/_app/immutable/assets/5.BLWcmbUd.webp";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="max-w-6xl w-full px-4 sm:px-6 md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto"><h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-secondary my-4 sm:my-6" data-svelte-h="svelte-v3sz71">MCS Program <span class="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-secondary mt-2">(Multiple Column Screening)</span></h1> <div class="shadow-lg bg-secondary/50 p-4 sm:p-6 md:p-8 lg:p-10 mb-6">${validate_component(MiniCarousel, "MiniCarousel").$$render($$result, { CarouselCards: mcpProgramCards }, {}, {})} <p class="my-4 text-sm sm:text-base md:text-lg" data-svelte-h="svelte-1o1l4gv">As described on the <a class="underline" href="/mccps-system">MCCPS System page</a>, the MCS Program is designed to efficiently screen multiple columns to
       accelerate the method development process.  As you make repeated

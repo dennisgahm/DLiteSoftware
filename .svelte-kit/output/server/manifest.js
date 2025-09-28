@@ -6,11 +6,11 @@ function __memo(fn) {
 
 return {
 	appDir: "_app",
-	appPath: "_app",
+	appPath: "DLiteSoftware/_app",
 	assets: new Set(["logo.svg"]),
 	mimeTypes: {".svg":"image/svg+xml"},
 	_: {
-		client: {start:"_app/immutable/entry/start.KVCLqwnI.js",app:"_app/immutable/entry/app.CVLvT4VX.js",imports:["_app/immutable/entry/start.KVCLqwnI.js","_app/immutable/chunks/BPPgRlCD.js","_app/immutable/chunks/Dp6q8ILM.js","_app/immutable/chunks/B17Q6ahh.js","_app/immutable/chunks/CQ74AKd9.js","_app/immutable/entry/app.CVLvT4VX.js","_app/immutable/chunks/Dp6q8ILM.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.Db7t5bkk.js",app:"_app/immutable/entry/app.DpcWlk--.js",imports:["_app/immutable/entry/start.Db7t5bkk.js","_app/immutable/chunks/CbpF2CK5.js","_app/immutable/chunks/Dp6q8ILM.js","_app/immutable/chunks/B17Q6ahh.js","_app/immutable/chunks/CQ74AKd9.js","_app/immutable/entry/app.DpcWlk--.js","_app/immutable/chunks/Dp6q8ILM.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

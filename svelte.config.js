@@ -1,16 +1,19 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';  // <-- make sure this is here
+import sveltePreprocess from 'svelte-preprocess';
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: vitePreprocess(),   // <-- this line
+  preprocess: sveltePreprocess(),
+
   kit: {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-	fallback: 'index.html',
-	strict: false
-    })
+      fallback: 'index.html', // SPA fallback for dynamic routes
+      strict: false
+    }),
+    paths: {
+      base: '/DLiteSoftware' // <-- just the repo name
+    }
   }
 };
 
