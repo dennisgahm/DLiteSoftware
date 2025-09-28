@@ -1,6 +1,10 @@
 {
-	"/": [],
-	"/acs-package": [],
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/acs-package": [
+		"src/routes/acs-package/+page.js"
+	],
 	"/applications": [],
 	"/chiral-technologies": [],
 	"/chromatogram-stacking-program": [],

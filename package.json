@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-scrolling": "^1.4.0"
+		"svelte-scrolling": "^1.4.0",
+		"svelte-to-html": "^1.1.1"
 	}
 }

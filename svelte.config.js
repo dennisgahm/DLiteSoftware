@@ -7,13 +7,12 @@ const config = {
   kit: {
     adapter: adapter({
       pages: 'build',
-      assets: 'build',
-      fallback: 'index.html', // SPA fallback for dynamic routes
-      strict: false
+	assets: 'build',
+	fallback: 'index.html',
+	prerender: {
+	    default: true
+	},
     }),
-    paths: {
-      base: '/DLiteSoftware' // <-- just the repo name
-    }
   }
 };
 

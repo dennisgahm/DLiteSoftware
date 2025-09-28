@@ -1,10 +1,10 @@
 import { c as create_ssr_component, a as add_attribute } from "../../../chunks/ssr.js";
-const img1 = "/DLiteSoftware/_app/immutable/assets/1.D8HNnIMg.webp";
-const img2 = "/DLiteSoftware/_app/immutable/assets/2.C0kg-BQm.webp";
-const img3 = "/DLiteSoftware/_app/immutable/assets/3.RzTVuG_P.webp";
-const img4 = "/DLiteSoftware/_app/immutable/assets/4.BgcuUVGe.webp";
-const img5 = "/DLiteSoftware/_app/immutable/assets/5.DNEg3pKa.webp";
-const img6 = "/DLiteSoftware/_app/immutable/assets/6.D8ahufqV.webp";
+const img1 = "/_app/immutable/assets/1.D8HNnIMg.webp";
+const img2 = "/_app/immutable/assets/2.C0kg-BQm.webp";
+const img3 = "/_app/immutable/assets/3.RzTVuG_P.webp";
+const img4 = "/_app/immutable/assets/4.BgcuUVGe.webp";
+const img5 = "/_app/immutable/assets/5.DNEg3pKa.webp";
+const img6 = "/_app/immutable/assets/6.D8ahufqV.webp";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="max-w-6xl w-full px-4 sm:px-6 md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto" data-svelte-h="svelte-1918cvc"><h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-secondary my-4 sm:my-6">ACS Package <span class="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-secondary mt-2">(Automated Column Screening)</span></h1> <div class="w-shadow-lg bg-secondary/50 p-4 sm:p-6 md:p-8 lg:p-10 mb-6"><div><img class="mx-auto"${add_attribute("src", img1, 0)} alt="Chromatogram Stacking Program(see program page for more info)"></div> <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 mb-4">What is the ACS Package?</p> <p class="my-4 text-sm sm:text-base md:text-lg"><strong>The ACS Package</strong>
       is a bundle of products designed to automate a large part of the column screening

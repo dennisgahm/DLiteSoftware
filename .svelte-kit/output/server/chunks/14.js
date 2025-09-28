@@ -40,20 +40,20 @@ const MiniCarousel = create_ssr_component(($$result, $$props, $$bindings, slots)
     )}"></span>`;
   })} </div>`;
 });
-const img1 = "/DLiteSoftware/_app/immutable/assets/1.VYpnoDE-.webp";
-const img2 = "/DLiteSoftware/_app/immutable/assets/2.DHdyd9R9.webp";
-const img3 = "/DLiteSoftware/_app/immutable/assets/3.BbuAFv1i.webp";
-const img4 = "/DLiteSoftware/_app/immutable/assets/4.DSbKlHdU.webp";
-const img5 = "/DLiteSoftware/_app/immutable/assets/5.DWH-fhuC.webp";
-const img6 = "/DLiteSoftware/_app/immutable/assets/6.BpuUsqvV.webp";
-const img7 = "/DLiteSoftware/_app/immutable/assets/7.BbSJxGuX.webp";
-const img8 = "/DLiteSoftware/_app/immutable/assets/8.BvrBehPD.webp";
-const img9 = "/DLiteSoftware/_app/immutable/assets/9.BclxISyk.webp";
-const img10 = "/DLiteSoftware/_app/immutable/assets/10.nYIhnNEE.webp";
-const img11 = "/DLiteSoftware/_app/immutable/assets/11.BVtNJ8q5.webp";
-const img12 = "/DLiteSoftware/_app/immutable/assets/12.cyZta3DH.webp";
-const img13 = "/DLiteSoftware/_app/immutable/assets/13.DzK9e967.webp";
-const img14 = "/DLiteSoftware/_app/immutable/assets/14.CY8gtXd_.webp";
+const img1 = "/_app/immutable/assets/1.VYpnoDE-.webp";
+const img2 = "/_app/immutable/assets/2.DHdyd9R9.webp";
+const img3 = "/_app/immutable/assets/3.BbuAFv1i.webp";
+const img4 = "/_app/immutable/assets/4.DSbKlHdU.webp";
+const img5 = "/_app/immutable/assets/5.DWH-fhuC.webp";
+const img6 = "/_app/immutable/assets/6.BpuUsqvV.webp";
+const img7 = "/_app/immutable/assets/7.BbSJxGuX.webp";
+const img8 = "/_app/immutable/assets/8.BvrBehPD.webp";
+const img9 = "/_app/immutable/assets/9.BclxISyk.webp";
+const img10 = "/_app/immutable/assets/10.nYIhnNEE.webp";
+const img11 = "/_app/immutable/assets/11.BVtNJ8q5.webp";
+const img12 = "/_app/immutable/assets/12.cyZta3DH.webp";
+const img13 = "/_app/immutable/assets/13.DzK9e967.webp";
+const img14 = "/_app/immutable/assets/14.CY8gtXd_.webp";
 export {
   MiniCarousel as M,
   img2 as a,

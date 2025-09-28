@@ -26,9 +26,9 @@ const ImageSlider = create_ssr_component(($$result, $$props, $$bindings, slots) 
     )}"></span>`;
   })} </div>`;
 });
-const img15 = "/DLiteSoftware/_app/immutable/assets/15.Cho1kXOW.webp";
-const img16 = "/DLiteSoftware/_app/immutable/assets/16.DLeoweV_.webp";
-const img17 = "/DLiteSoftware/_app/immutable/assets/17.C1o0EWlA.webp";
+const img15 = "/_app/immutable/assets/15.Cho1kXOW.webp";
+const img16 = "/_app/immutable/assets/16.DLeoweV_.webp";
+const img17 = "/_app/immutable/assets/17.C1o0EWlA.webp";
 const mccpProgramCards = [
   {
     imgsrc: img1$2,
@@ -173,28 +173,28 @@ const mccpProgramCards = [
     ]
   }
 ];
-const img1$1 = "/DLiteSoftware/_app/immutable/assets/1.DMf9NMHB.webp";
-const img2$1 = "/DLiteSoftware/_app/immutable/assets/2.BmhLcLzR.webp";
-const img3$1 = "/DLiteSoftware/_app/immutable/assets/3.nk52x0cj.webp";
-const img4$1 = "/DLiteSoftware/_app/immutable/assets/4.8IskPVVI.webp";
-const img5$1 = "/DLiteSoftware/_app/immutable/assets/5.94j7bE-j.webp";
-const img6$1 = "/DLiteSoftware/_app/immutable/assets/6.DXEXA18Z.webp";
-const img7$1 = "/DLiteSoftware/_app/immutable/assets/7.BHWgXN3t.webp";
-const img8$1 = "/DLiteSoftware/_app/immutable/assets/8.KOONl39Y.webp";
-const img9$1 = "/DLiteSoftware/_app/immutable/assets/9.6BAfll0e.webp";
-const img10$1 = "/DLiteSoftware/_app/immutable/assets/10.CPZCH3M7.webp";
+const img1$1 = "/_app/immutable/assets/1.DMf9NMHB.webp";
+const img2$1 = "/_app/immutable/assets/2.BmhLcLzR.webp";
+const img3$1 = "/_app/immutable/assets/3.nk52x0cj.webp";
+const img4$1 = "/_app/immutable/assets/4.8IskPVVI.webp";
+const img5$1 = "/_app/immutable/assets/5.94j7bE-j.webp";
+const img6$1 = "/_app/immutable/assets/6.DXEXA18Z.webp";
+const img7$1 = "/_app/immutable/assets/7.BHWgXN3t.webp";
+const img8$1 = "/_app/immutable/assets/8.KOONl39Y.webp";
+const img9$1 = "/_app/immutable/assets/9.6BAfll0e.webp";
+const img10$1 = "/_app/immutable/assets/10.CPZCH3M7.webp";
 const MCCPImageSet1 = [img1$1, img2$1, img3$1, img4$1, img5$1, img6$1, img7$1, img8$1, img9$1, img10$1];
-const img1 = "/DLiteSoftware/_app/immutable/assets/1.DCWoOiHL.webp";
-const img2 = "/DLiteSoftware/_app/immutable/assets/2.DF1RtknB.webp";
-const img3 = "/DLiteSoftware/_app/immutable/assets/3.Heufn6hu.webp";
-const img4 = "/DLiteSoftware/_app/immutable/assets/4.ClVbWmQr.webp";
-const img5 = "/DLiteSoftware/_app/immutable/assets/5.BSEmyMvT.webp";
-const img6 = "/DLiteSoftware/_app/immutable/assets/6.BNQK7dVB.webp";
-const img7 = "/DLiteSoftware/_app/immutable/assets/7.BCYlwA9c.webp";
-const img8 = "/DLiteSoftware/_app/immutable/assets/8.CAEy_MeK.webp";
-const img9 = "/DLiteSoftware/_app/immutable/assets/9.uSX4iz7e.webp";
-const img10 = "/DLiteSoftware/_app/immutable/assets/10.BFkzjy6k.webp";
-const img11 = "/DLiteSoftware/_app/immutable/assets/11.Ceqwnh1L.webp";
+const img1 = "/_app/immutable/assets/1.DCWoOiHL.webp";
+const img2 = "/_app/immutable/assets/2.DF1RtknB.webp";
+const img3 = "/_app/immutable/assets/3.Heufn6hu.webp";
+const img4 = "/_app/immutable/assets/4.ClVbWmQr.webp";
+const img5 = "/_app/immutable/assets/5.BSEmyMvT.webp";
+const img6 = "/_app/immutable/assets/6.BNQK7dVB.webp";
+const img7 = "/_app/immutable/assets/7.BCYlwA9c.webp";
+const img8 = "/_app/immutable/assets/8.CAEy_MeK.webp";
+const img9 = "/_app/immutable/assets/9.uSX4iz7e.webp";
+const img10 = "/_app/immutable/assets/10.BFkzjy6k.webp";
+const img11 = "/_app/immutable/assets/11.Ceqwnh1L.webp";
 const MCCPImageSet2 = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="max-w-6xl w-full px-4 sm:px-6 md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto"> <h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-secondary my-4 sm:my-6" data-svelte-h="svelte-17jwdz">MCCP Program

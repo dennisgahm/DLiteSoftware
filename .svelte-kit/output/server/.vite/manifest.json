@@ -673,6 +673,12 @@
       "_app/immutable/assets/_layout.BkkU9jeo.css"
     ]
   },
+  "src/routes/+page.js": {
+    "file": "entries/pages/_page.js",
+    "name": "entries/pages/_page",
+    "src": "src/routes/+page.js",
+    "isEntry": true
+  },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
     "name": "entries/pages/_page.svelte",
@@ -685,6 +691,12 @@
     "css": [
       "_app/immutable/assets/_page.DvDs69je.css"
     ]
+  },
+  "src/routes/acs-package/+page.js": {
+    "file": "entries/pages/acs-package/_page.js",
+    "name": "entries/pages/acs-package/_page",
+    "src": "src/routes/acs-package/+page.js",
+    "isEntry": true
   },
   "src/routes/acs-package/+page.svelte": {
     "file": "entries/pages/acs-package/_page.svelte.js",
